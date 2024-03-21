@@ -1,0 +1,21 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{ on All Death Death Rate}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{Log All Deaths}&\multicolumn{1}{c}{Log All Deaths}&\multicolumn{1}{c}{Log All Deaths}&\multicolumn{1}{c}{Log All Deaths}&\multicolumn{1}{c}{Log All Deaths}&\multicolumn{1}{c}{Log All Deaths}\\
+\hline
+post\_effective      &      0.0250         &     -0.0289         &     -0.0727\sym{**} &                     &                     &                     \\
+                    &    (0.0241)         &    (0.0207)         &    (0.0232)         &                     &                     &                     \\
+[1em]
+post\_licensed       &                     &                     &                     &      0.0642\sym{*}  &     0.00665         &     -0.0670\sym{*}  \\
+                    &                     &                     &                     &    (0.0275)         &    (0.0237)         &    (0.0267)         \\
+\hline
+Observations        &         550         &         550         &         550         &         550         &         550         &         550         \\
+mean\_rate           &       3.969         &       4.505         &       4.633         &       3.969         &       4.505         &       4.633         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{table}
